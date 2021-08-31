@@ -1,0 +1,33 @@
+.header {
+    margin-top: 60px;
+}
+
+.header-logo { 
+    cursor: pointer;
+    color: #808080;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-family: 'barlowmedium', sans-serif;
+    font-weight: normal;
+    margin: 0px 0px 0px 100px;
+}
+
+.header-nav a {
+    font-family: 'barlowextralight', sans-serif;
+    text-decoration: none;
+    color: #9e9e9e;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+@media (max-width: 1300px) {
+    .header-logo { 
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 990px) {
+    .header-logo { 
+        margin-left: 60px;
+    }
+}
