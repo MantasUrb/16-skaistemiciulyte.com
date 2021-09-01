@@ -102,7 +102,7 @@
         padding: 70px 20px;;
     }
 }
-@media  (max-width: 300px) {
+@media  (max-width: 314px) {
     .header-logo {
         font-size: 20px;
     }
