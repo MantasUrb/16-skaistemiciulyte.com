@@ -39,3 +39,19 @@
 .header-nav a:active {
     color: #2A2A2A;
 }
+
+@media (max-width: 1100px) {
+    .header {
+        margin: 110px 0px 80px -100px;
+    }
+}
+@media (max-width: 750px) {
+    .header {
+        margin: 70px 0px 50px -50px;
+    }
+}
+@media (max-width: 540px) {
+    .header {
+        margin: 50px 0px 20px 0px;
+    }
+}
