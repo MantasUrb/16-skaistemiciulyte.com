@@ -16,6 +16,9 @@
     margin: 0px 40px 0px 0px;
     align-items: baseline;
 }
+.header-nav {
+    position: relative;
+}
 .header-nav li {
     display: inline-block;
     list-style-type: none;
@@ -54,4 +57,11 @@
     .header {
         margin: 50px 0px 20px 0px;
     }
+}
+@media  (max-width: 300px) {
+    .header-logo {
+        font-size: 20px;
+      }
+      .header {
+        margin: 25px 0px 15px 0px;
 }

@@ -1,6 +1,8 @@
 // COMPONENTS AND DATA IMPORT
 
 /* HEADER START */
+import { menuBurger } from "./components/burger.js";
+
 /* HEADER END */
 
 /* HERO START */
@@ -12,6 +14,8 @@
 // COMPONENTS EXECUTION
 
 /* HEADER START */
+menuBurger ();
+
 /* HEADER END */
 
 /* HERO START */
