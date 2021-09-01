@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'barlowmedium';
     src: url('../../fonts/BarlowFontFamily/barlow-medium-webfont.woff2') format('woff2'),
-         url('../../fonts/BarlowFontFamily/barlow-extralight-webfont.woff') format('woff');
+         url('../../fonts/BarlowFontFamily/barlow-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
