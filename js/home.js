@@ -2,6 +2,7 @@
 
 /* HEADER START */
 import { menuBurger } from "./components/burger.js";
+import { showMobileMenu } from "./components/burger.js";
 
 /* HEADER END */
 
@@ -15,6 +16,7 @@ import { menuBurger } from "./components/burger.js";
 
 /* HEADER START */
 menuBurger ();
+showMobileMenu ();
 
 /* HEADER END */
 

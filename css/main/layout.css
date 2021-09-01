@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column: 1 / 2;
-    gap: 30px;
+    gap: 10px;
 }
 .container {
     display: grid;
@@ -107,7 +107,7 @@ body {
         }
         .container-fluid > .row,
         .container > .row {
-            gap: 25px;
+            gap: 10px;
         }
         .container-fluid > .row > .col-xxl-12,
         .container > .row > .col-xxl-12 {
@@ -179,7 +179,7 @@ body {
     }
     .container-fluid > .row,
     .container > .row {
-        gap: 25px;
+        gap: 10px;
     }
     .container-fluid > .row > .col-xl-12,
     .container > .row > .col-xl-12 {
@@ -250,7 +250,7 @@ body {
     }
     .container-fluid > .row,
     .container > .row {
-        gap: 20px;
+        gap: 10px;
     }
     .container-fluid > .row > .col-lg-12,
     .container > .row > .col-lg-12 {

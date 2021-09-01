@@ -8,8 +8,18 @@ function menuBurger (selector) {
         } else {
             menuBtn.classList.remove('open');
             menuOpen = false;
-        }
+        } 
+    })
+}
+
+function showMobileMenu (selector) {
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.querySelector('.mobile-nav')
+    
+    menuBtn.addEventListener('click', () => {
+        nav.classList.toggle('mobile-nav-active')
     })
 }
 
 export { menuBurger };
+export { showMobileMenu };
