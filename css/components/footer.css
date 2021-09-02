@@ -1,0 +1,37 @@
+.footer-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'barlowextralight', sans-serif;
+    padding: 0px 450px 0px 0px;
+}
+@media (max-width: 1200px) {
+    .footer a {
+        padding: 0px 200px 0px 0px;
+    }
+}
+@media (max-width: 750px) {
+    .footer a {
+        padding: 0px 100px 0px 0px;
+    }
+}
+@media (max-width: 435px) {
+    .footer a {
+        padding: 0px 50px 0px 0px;
+    }
+}

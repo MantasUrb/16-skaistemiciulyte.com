@@ -46,7 +46,7 @@
 .mobile-nav {
     position: absolute;
     display: flex;
-    background-color: #2A2A2A;
+    background-color: #808080;
     width: 100vw;
     height: 100vh; 
     justify-content: center;
@@ -81,7 +81,7 @@
 @media (max-width: 1200px) {
     .header {
         margin: 110px 0px 60px 0px;
-        padding: 0px 200px 0px 0px;
+        padding: 0px 185px 0px 0px;
     }
 }
 @media (max-width: 750px) {

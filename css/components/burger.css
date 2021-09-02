@@ -61,7 +61,7 @@
     left: 0px;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 380px) {
   .menu-btn {
     display: flex !important;
     left: -30px;

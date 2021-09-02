@@ -8,6 +8,7 @@
 /* components */
 @import './components/header.css';
 @import './components/burger.css';
+@import './components/hero.css';
 @import './components/footer.css';
 /* CUSTOM STYLE BELOW */
 
