@@ -1,8 +1,8 @@
 // COMPONENTS AND DATA IMPORT
 
 /* HEADER START */
-import { menuBurger } from "./components/burger.js";
-import { showMobileMenu } from "./components/burger.js";
+import { menuBurger } from './components/burger.js';
+import { showMobileMenu } from './components/burger.js';
 
 /* HEADER END */
 
@@ -10,6 +10,8 @@ import { showMobileMenu } from "./components/burger.js";
 /* HERO END */
 
 /* FOOTER START */
+import { socials } from './components/socials.js';
+import { socialsData } from './data/socialsData.js';
 /* FOOTER END */
 
 // COMPONENTS EXECUTION
@@ -24,4 +26,5 @@ showMobileMenu ();
 /* HERO END */
 
 /* FOOTER START */
+socials ('.socials', socialsData);
 /* FOOTER END */

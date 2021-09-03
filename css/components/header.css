@@ -34,11 +34,13 @@
     font-size: 18px;
 }
 .header-nav li, a {
-    transition: all 0.3s ease 0s;
-
+    transition: all 0.3s ease;
 }
-.header-nav li a:hover {
+.header-nav a:hover {
     color: #2A2A2A;
+}
+.header-nav li:hover {
+    transform: scale(1.1);
 }
 .header-nav a:active {
     color: #2A2A2A;
@@ -46,7 +48,7 @@
 .mobile-nav {
     position: absolute;
     display: flex;
-    background-color: #2A2A2A;
+    background-color: #808080;
     width: 100vw;
     height: 100vh; 
     justify-content: center;
@@ -77,11 +79,10 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
 }
-
 @media (max-width: 1200px) {
     .header {
         margin: 110px 0px 60px 0px;
-        padding: 0px 200px 0px 0px;
+        padding: 0px 185px 0px 0px;
     }
 }
 @media (max-width: 750px) {
