@@ -1,12 +1,17 @@
 // COMPONENTS AND DATA IMPORT
 
+/* BODY START */
+import { fixedBodyPosition } from './components/body.js';
+/* BODY END */
+
 /* HEADER START */
 import { menuBurger } from './components/burger.js';
 import { showMobileMenu } from './components/burger.js';
-
 /* HEADER END */
 
 /* HERO START */
+import { heroImages } from './components/hero.js';
+import { heroData } from './data/heroData.js';
 /* HERO END */
 
 /* FOOTER START */
@@ -16,13 +21,17 @@ import { socialsData } from './data/socialsData.js';
 
 // COMPONENTS EXECUTION
 
+/* BODY START */
+fixedBodyPosition();
+/* BODY END */
+
 /* HEADER START */
 menuBurger ();
 showMobileMenu ();
-
 /* HEADER END */
 
 /* HERO START */
+heroImages('.hero-row', heroData);
 /* HERO END */
 
 /* FOOTER START */

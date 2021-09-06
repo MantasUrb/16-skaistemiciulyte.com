@@ -17,4 +17,4 @@ const socialsData = [
     }
 ];
 
-export { socialsData }
+export { socialsData };

@@ -6,6 +6,7 @@
 @import './3rd-party/font-awesome.min.css';
 @import './3rd-party/barlowfonts.css';
 /* components */
+@import './components/body.css';
 @import './components/header.css';
 @import './components/burger.css';
 @import './components/hero.css';
