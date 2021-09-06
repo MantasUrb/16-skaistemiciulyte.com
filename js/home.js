@@ -1,7 +1,6 @@
 // COMPONENTS AND DATA IMPORT
 
 /* BODY START */
-import { fixedBodyPosition } from './components/body.js';
 /* BODY END */
 
 /* HEADER START */
@@ -22,7 +21,6 @@ import { socialsData } from './data/socialsData.js';
 // COMPONENTS EXECUTION
 
 /* BODY START */
-fixedBodyPosition();
 /* BODY END */
 
 /* HEADER START */
