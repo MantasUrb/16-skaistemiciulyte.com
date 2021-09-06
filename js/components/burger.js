@@ -1,13 +1,19 @@
+import { fixedBodyPosition } from './body.js';
+
 function menuBurger(selector) {
+
   const menuBtn = document.querySelector(".menu-btn");
-  let menuOpen = false;
+  let menuOpen = false; 
+
   menuBtn.addEventListener("click", () => {
     if (!menuOpen) {
       menuBtn.classList.add("open");
       menuOpen = true;
+      fixedBodyPosition();
     } else {
       menuBtn.classList.remove("open");
       menuOpen = false;
+      fixedBodyPosition();
     }
   });
 }
