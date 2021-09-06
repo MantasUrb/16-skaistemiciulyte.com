@@ -1,34 +1,40 @@
 const heroData = [
     {  
-    path:'../../img/content/test1.jpg',  
+    path:'./img/content/test1.jpg',  
     title:'',
     about:'',
     link:'#'
     },
     {  
-    path:'../../img/content/test2.webp',  
+    path:'./img/content/test2.webp',  
     title:'',
     about:'',
     link:'#'
     },
     {  
-    path:'../../img/content/test1.jpg',  
+    path:'./img/content/test1.jpg',  
     title:'',
     about:'',
     link:'#'
     },
     {  
-    path:'../../img/content/test2.webp',  
+    path:'./img/content/test2.webp',  
     title:'',
     about:'',
     link:'#'
     },
     {  
-    path:'../../img/content/test1.jpg',  
+    path:'./img/content/test1.jpg',  
     title:'',
     about:'',
     link:'#'
     },
+    {  
+    path:'./img/content/test2.webp',  
+    title:'',
+    about:'',
+    link:'#'
+    }
 ];
 
 export { heroData };
