@@ -1,0 +1,6 @@
+.body {
+    position: relative;
+}
+.fixed-position {
+    position: fixed;
+}

@@ -87,7 +87,7 @@
 }
 @media (max-width: 750px) {
     .header {
-        margin: 70px 0px 35px 0px;
+        margin: 55px 0px 35px 0px;
         padding: 0px 150px 0px 0px;
     }
     .mobile-nav {
@@ -96,7 +96,7 @@
 }
 @media (max-width: 540px) {
     .header {
-        margin: 50px 0px 20px 0px;
+        margin: 40px 0px 20px 0px;
         padding: 0px 0px 0px 0px;
     }
     .mobile-nav {

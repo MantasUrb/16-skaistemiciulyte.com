@@ -65,7 +65,13 @@
 @media (max-width: 444px) {
     .footer {
         flex-direction: column;
-        padding: 50px 0px;
+        padding: 45px 0px;
+    }
+    .footer-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 }
 
