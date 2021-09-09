@@ -52,12 +52,12 @@
 }
 @media (max-width: 750px) {
   .menu-btn {
-    display: flex !important;
+    display: flex;
   }
 }
 @media (max-width: 540px) {
   .menu-btn {
-    display: flex !important;
+    display: flex;
     left: 0px;
   }
 }
