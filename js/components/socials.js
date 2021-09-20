@@ -11,9 +11,8 @@ function socials(selector, data) {
         const { href, icon } = social;
         HTML += `<a href="${href}" target="_blank"><i class="fa fa-${icon} icon"></i></a>`;
     }
-
+    
     DOM.innerHTML = HTML;
 }
 
 export { socials };
-
