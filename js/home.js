@@ -34,4 +34,5 @@ heroImages('.hero-row', heroData);
 
 /* FOOTER START */
 socials ('.socials', socialsData);
+socials ('.about-socials', socialsData);
 /* FOOTER END */

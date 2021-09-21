@@ -53,26 +53,21 @@
         justify-content: center;
     }
     .footer a {
-        margin: 0px 5px 0px 0px;
+        margin: 0px 3px;
     }
     .email {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
     }
     .socials {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
     }
 }
-@media (max-width: 444px) {
+@media (max-width: 540px) {
+    .footer-container {
+        position: static;
+    }
     .footer {
         flex-direction: column;
         padding: 45px 0px;
     }
-    .footer-container {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
 }
-
-

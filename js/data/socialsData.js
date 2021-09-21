@@ -1,19 +1,19 @@
 const socialsData = [
     {
         icon: 'instagram',
-        href: '#',
+        href: 'https://www.instagram.com/skaiste.miciulyte/',
     },
     {
         icon: 'facebook',
-        href: '#',
+        href: 'https://www.facebook.com/skaiste.miciulyte',
     },
     {
         icon: 'linkedin',
-        href: '#',
+        href: 'https://www.linkedin.com/in/skaistė-mičiulytė-bukienė/',
     },
     {
         icon: 'behance',
-        href: '#',
+        href: 'https://www.behance.net/skaistemiciulyte',
     }
 ];
 
