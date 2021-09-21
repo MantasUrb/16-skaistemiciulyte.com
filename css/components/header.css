@@ -16,7 +16,11 @@
     font-weight: normal;
     margin: 0px 40px 0px 0px;
     align-items: baseline;
-    
+}
+.header-logo > a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
 }
 .header-nav {
     position: relative;
