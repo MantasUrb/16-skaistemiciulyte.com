@@ -1,0 +1,25 @@
+.inner-pages-container > .row {
+    gap: 10px;
+}
+.inner-pages-container p {
+    padding: 0px 0px 30px 0px;
+}
+.title > p {
+    font-family: 'barlowmedium', sans-serif;
+    font-size: 20px;
+    color: #808080;
+    padding: 0px;
+}
+.inner-pages-hero {
+    margin: 25px 0px 0px 0px;
+}
+@media (max-width: 750px) {
+    .inner-pages-container p {
+        padding: 0px 0px 15px 0px;
+    }
+}
+@media (max-width: 435px) {
+    .title > p {
+        font-size: 16px;
+    }
+}
