@@ -1,15 +1,24 @@
 function heroImages(selector, data) {
 
-    const DOM = document.querySelector(selector);
+    const DOM = document.querySelector(selector)
+    const host = "http://127.0.0.1:3000/";
+
     let HTML = "";
-    
-    for (let i = 0; i < data.length; i++) {
-      const info = data[i];
-      HTML += ` <div class="col-4 col-xl-6 col-sm-12 image">
+    if (window.location.href == host
+        ||
+        window.location.href == host + 'index.html' 
+        ||
+        window.location.href == host + 'vilnius-university-siauliai-academy.html') {
+        for (let i = 0; i < data.length; i++) {
+        const info = data[i];
+        HTML += `<div class="col-4 col-xl-6 col-sm-12 image">
                     <img src="${info.path}" alt="${info.title}" />
                 </div>`;
+        }
+        DOM.innerHTML += HTML;
+    } else {
+        return;
     }
-    DOM.innerHTML += HTML;
 }
 
 export { heroImages };

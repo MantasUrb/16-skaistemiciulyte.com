@@ -1,6 +1,6 @@
 const heroData = [
     {  
-    path:'./img/content/VU_Siauliu Akademija_Admission process_C.webp',  
+    path:'./img/content/VU_Siauliu Akademija_Admission process_1.webp',  
     title:'VILNIUS UNIVERSITY ŠIAULIAI ACADEMY',
     client: 'Client: Agency 1323',
     about:'Advertising campaign on admission process for Vilnius University Šiauliai Academy.',
