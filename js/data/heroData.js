@@ -23,7 +23,7 @@ const heroData = [
     {  
     path:'./img/content/BreakingOutToFreedom.webp',  
     title:'BREAKING OUT TO FREEDOM',
-    client: 'Work for @artistswithbelarus initiative.',
+    client: 'Work for @artistswithbelarus initiative',
     about:'',
     link:'freedom'
     },
