@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   margin: 110px 0px 60px 0px;
-  padding: 0px 310px 0px 0px;
+  padding: 0px 455px 0px 0px;
   justify-content: center;
   align-items: baseline;
   list-style-type: none;
@@ -16,7 +16,7 @@
   text-align: justify;
 }
 .container {
-  grid-template-columns: 1fr 850px 1fr;
+  grid-template-columns: 1fr 1000px 1fr;
   padding: 10px 0px;
 }
 .container > .row {
@@ -58,6 +58,9 @@
 }
 .about-hero > .third-section > p {
   padding: 0px 0px 30px 0px;
+}
+.third-section {
+  margin: 0px 0px 100px 0px ;
 }
 .third-section a {
   color: #555555;
