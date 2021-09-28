@@ -94,6 +94,9 @@
   .about-menu-btn {
     left: 190px;
   }
+  .third-section {
+    margin: 0px 0px 50px 0px ;
+  }
 }
 @media (max-width: 625px) {
   .container {
