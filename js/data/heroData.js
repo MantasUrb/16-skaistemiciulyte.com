@@ -14,7 +14,7 @@ const heroData = [
     link:'chernobyl-lessons-to-europe'
     },
     {  
-    path:'./img/content/VU_Siauliu Akademija_Steps.webp',  
+    path:'./img/content/VU_Siauliu_Akademija_Steps.webp',  
     title:'VILNIUS UNIVERSITY ŠIAULIAI ACADEMY',
     client: 'Client: Agency 1323',
     about:'',
@@ -23,7 +23,7 @@ const heroData = [
     {  
     path:'./img/content/BreakingOutToFreedom.webp',  
     title:'BREAKING OUT TO FREEDOM',
-    client: 'Work for @artistswithbelarus initiative.',
+    client: 'Work for @artistswithbelarus initiative',
     about:'',
     link:'freedom'
     },
