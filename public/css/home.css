@@ -1,0 +1,25 @@
+/* main */
+@import './main/reset.css';
+@import './main/variables.css';
+@import './main/layout.css';
+/* 3-rd party */
+@import './3rd-party/font-awesome.min.css';
+@import './3rd-party/barlowfonts.css';
+/* components */
+@import './components/body.css';
+@import './components/header.css';
+@import './components/burger.css';
+@import './components/hero.css';
+@import './components/footer.css';
+@import './components/about-page.css';
+@import './components/inner-pages.css';
+/* CUSTOM STYLE BELOW */
+
+/* HEADER START */
+/* HEADER END */
+
+/* HERO START */
+/* HERO END */
+
+/* FOOTER START */
+/* FOOTER END */

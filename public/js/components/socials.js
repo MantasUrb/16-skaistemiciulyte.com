@@ -1,0 +1,17 @@
+function socials(selector, data) {
+    const DOM = document.querySelector(selector);       // null
+    if (!DOM) {
+        console.error('ERROR SOCIALS: content render place is not valid/incorrect');
+        return false;
+    }
+
+    let HTML = '';
+
+    for (const social of data) {
+        const { href, icon } = social;
+        HTML += `<a href="${href}" target="_blank"><i class="fa fa-${icon} icon"></i></a>`;
+    }
+    DOM.innerHTML = HTML;
+}
+
+export { socials };
