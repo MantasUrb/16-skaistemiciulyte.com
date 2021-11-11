@@ -60,7 +60,7 @@ const heroData = [
     title:'SEB ARENA. SOCIAL MEDIA CAMPAIGN',
     client: 'Client: Agency 1323',
     about:'',
-    link:'seb-arena-tennis-bag'
+    link:'seb-arena-2'
     },
     {  
     path:'./img/content/Stable&Wobbly.webp',  

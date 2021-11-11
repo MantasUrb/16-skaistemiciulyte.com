@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
     <title>About | Skaiste Miciulyte</title>
-    <!-- <link rel="stylesheet" href="./css/home.css" /> -->
     <link href="{{ asset('css/home.css') }}" rel="stylesheet" />
   </head>
 
@@ -88,6 +87,6 @@
       </div>
     </div>
     <!-- FOOTER END -->
-    <script src="./js/home2social.js" type="module" defer></script>
+    <script src="{{ asset('./js/home2social.js')}}" type="module" defer></script>
   </body>
 </html>

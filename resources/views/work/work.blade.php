@@ -8,7 +8,6 @@
     content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
   <title>Illustration | Skaiste Miciulyte</title>
   <link href="{{ asset('css/home.css') }}" rel="stylesheet" />
-  <!-- <link rel="stylesheet" href="./css/home.css" /> -->
 </head>
 <body id="body">
   <!-- HEADER START -->

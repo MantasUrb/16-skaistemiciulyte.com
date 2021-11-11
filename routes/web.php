@@ -49,7 +49,12 @@ Route::get('/the-tap', function () {
 Route::get('/hopes-of-the-lockdown-ending', function () {
     return view('portfolio/hopes-of-the-lockdown-ending');
 });
-
+Route::get('/seb-arena-1', function () {
+    return view('portfolio/seb-arena-1');
+});
+Route::get('/seb-arena-2', function () {
+    return view('portfolio/seb-arena-2');
+});
 
 Auth::routes();
 
