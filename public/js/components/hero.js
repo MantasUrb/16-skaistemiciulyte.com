@@ -9,11 +9,14 @@ function heroImages(selector, data) {
     }
 
     for (let i = 0; i < data.length; i++) {
-    const info = data[i];
-    HTML += `<div class="col-4 col-xl-6 col-sm-12 image">
-                <a href="${info.link}"><img src="${info.path}" alt="${info.title}"/></a>
-            </div>`;
-            }
+        const info = data[i];
+
+        if (!('/' + info.link == window.location.pathname)) {
+        HTML += `<div class="col-4 col-xl-6 col-sm-12 image">
+                    <a href="${info.link}"><img src="${info.path}" alt="${info.title}"/></a>
+                </div>`;
+        }
+    }
     DOM.innerHTML += HTML;
 }
 

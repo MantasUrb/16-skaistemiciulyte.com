@@ -41,14 +41,9 @@
 .header-nav li, a {
     transition: all 0.3s ease;
 }
-.header-nav a:hover {
+.header-nav a, li:hover {
     color: #2A2A2A;
-}
-.header-nav li:hover {
     transform: scale(1.1);
-}
-.header-nav a:active {
-    color: #2A2A2A;
 }
 .mobile-nav {
     position: absolute;
