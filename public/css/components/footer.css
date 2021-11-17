@@ -48,7 +48,13 @@
     background-color: #808080;
     color: rgb(255, 255, 255);
 }
+.footer-margin {
+    margin: 0px 0px 60px 0px;
+}
 @media (max-width: 750px) {
+    .footer-container {
+        position: static;
+    }
     .footer {
         justify-content: center;
     }
@@ -63,9 +69,6 @@
     }
 }
 @media (max-width: 540px) {
-    .footer-container {
-        position: static;
-    }
     .footer {
         flex-direction: column;
         padding: 45px 0px;

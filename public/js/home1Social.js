@@ -6,6 +6,7 @@
 /* HEADER START */
 import { menuBurger } from './components/burger.js';
 import { showMobileMenu } from './components/burger.js';
+import { activePage } from './components/activePage.js';
 /* HEADER END */
 
 /* HERO START */
@@ -16,6 +17,7 @@ import { heroData } from './data/heroData.js';
 /* FOOTER START */
 import { socials } from './components/socials.js';
 import { socialsData } from './data/socialsData.js';
+import { staticFooter } from './components/staticFooter.js';
 /* FOOTER END */
 
 // COMPONENTS EXECUTION
@@ -26,6 +28,7 @@ import { socialsData } from './data/socialsData.js';
 /* HEADER START */
 menuBurger ();
 showMobileMenu ();
+activePage ();
 /* HEADER END */
 
 /* HERO START */
@@ -34,6 +37,6 @@ heroImages('.hero-row', heroData);
 
 /* FOOTER START */
 socials ('.socials', socialsData);
-// socials ('.about-socials', socialsData);
+staticFooter ();
 /* FOOTER END */
 
