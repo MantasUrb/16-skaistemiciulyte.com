@@ -1,0 +1,100 @@
+.inner-pages-container > .row {
+    gap: 10px;
+}
+.inner-pages-container p {
+    padding: 0px 0px 30px 0px;
+}
+.title > p {
+    font-family: 'barlowmedium', sans-serif;
+    font-size: 20px;
+    color: #808080;
+    padding: 0px;
+}
+.inner-pages-hero {
+    margin: 150px 0px 0px 0px;
+}
+.inner-page-img {
+    margin: 0px -4px 0px 0px;
+}
+@media (min-width: 1200px) {
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 0px 0px 2px;
+    }
+}
+@media (max-width: 1200px) {
+    .container-seb-arena-1 {
+        grid-template-columns: 1fr 700px 1fr;
+    }
+    .inner-page-img {
+        max-width: 50%;
+    }
+    .small-inner-page-img-sebarena1 {
+        width: 171px;
+    }
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 3px 0px 3px;
+        max-width: 32%;
+    }
+} 
+@media (max-width: 750px) {
+    .inner-pages-container p {
+        padding: 0px 0px 15px 0px;
+    }
+    .container {
+        grid-template-columns: 1fr 525px 1fr;
+    }
+    .small-inner-page-img-sebarena1 {
+        width: 127px;
+    }
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 2px 0px 2px;
+        max-width: 32%;
+    }
+}
+@media (max-width: 625px) {
+    .inner-pages-hero {
+        margin: 100px 0px 0px 0px;
+    }
+    .container {
+        grid-template-columns: 1fr 390px 1fr;
+    }
+    .inner-page-img {
+        max-width: 100%;
+    }
+    .small-inner-page-img-sebarena1 {
+        width: 192px;
+        margin: 0px 0px 4px 0px;
+    }
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 1px 0px 1px;
+    }
+}
+@media (max-width: 435px) {
+    .title > p {
+        font-size: 16px;
+    }
+    .inner-pages-hero {
+        margin: 70px 0px 0px 0px;
+    }
+    .container {
+        grid-template-columns: 1fr 305px 1fr;
+    }
+    .small-inner-page-img-sebarena1 {
+        width: 150px;
+    }
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 1px 0px 0px;
+    }
+}
+@media (max-width: 360px) {
+    .container {
+        grid-template-columns: 1fr 250px 1fr;
+    }
+    .small-inner-page-img-sebarena1 {
+        width: 250px;
+        margin: 0px 0px 0px 0px;
+    }
+    .small-inner-page-img-sebarena2 {
+        margin: 0px 0px 0px 0px;
+    }
+}
