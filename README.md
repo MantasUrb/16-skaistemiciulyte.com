@@ -28,8 +28,7 @@ Design: https://i.ibb.co/cc3yD1T/s-m.png
 - Create a copy of your .env file
 - Generate an app encryption key
 - Start Laravel development server: "php artisan serve"
-[Instructions](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/)
-
+- [Instructions](https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/)
 
 ## Authors
 
